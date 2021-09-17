@@ -9,7 +9,7 @@ links:
       name: slides
     - url: https://youtu.be/xaD3fAWK580
       name: video
-
+---
 type: lecture
 date: 2021-09-20
 title: Introduction to Integer Programming
