@@ -1,13 +1,13 @@
 # Site settings
-course_name: History of Magic
-course_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ornare aliquam mattis. Donec hendrerit sollicitudin urna. Aliquam venenatis rutrum velit, at lobortis dui cursus a. Nam varius metus in turpis maximus, ut rhoncus tellus dictum. In aliquam tortor nec mi dapibus, sit amet vehicula dolor auctor."
-course_semester: "Fall 1998"
+course_name: Machine Learning for Mathematical Optimization
+course_description: "Faster algorithms with data-driven methods"
+course_semester: "Fall 2021"
 
 baseurl: "/2021" # the subpath of your site, e.g. /blog/
 url: "http://utoronto-ml4opt.github.io/" # the base hostname & protocol for your site
 
-schoolname: "Hogwarts"
-schoolurl: "https://hogwarts.edu"
+schoolname: "University of Toronto"
+schoolurl: "https://utoronto.ca"
 twitter_username: username 
 
 address: |
