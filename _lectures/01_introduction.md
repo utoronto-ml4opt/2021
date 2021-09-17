@@ -5,7 +5,7 @@ title: Course Overview
 tldr: "A brief summary of the main topics we will study and the syllabus."
 thumbnail: /static_files/presentations/1_overview.jpg
 links: 
-    - url: /static_files/presentations/1_overview.pdf
+    - url: <a href="/static_files/presentations/1_overview.pdf" target="_blank"></a> 
       name: slides
     - url: https://youtu.be/xaD3fAWK580
       name: video
