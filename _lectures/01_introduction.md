@@ -7,8 +7,6 @@ thumbnail: /static_files/presentations/lec.jpg
 links: 
     - url: /static_files/presentations/1_overview.pdf
       name: slides
-<!--     - url: /static_files/presentations/code.zip
-      name: codes -->
     - url: https://youtu.be/xaD3fAWK580
       name: video
 ---
