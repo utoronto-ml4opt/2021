@@ -1,6 +1,6 @@
 # Site settings
 course_name: Machine Learning for Mathematical Optimization
-course_description: "Faster algorithms with data-driven methods"
+course_description: "This course introduces automated machine learning approaches for improving optimization algorithms in the presence of a historical dataset or a generator of problem instances from a domain of interest. Topics include automated algorithm configuration, modeling iterative heuristics in the reinforcement learning framework, deep neural networks for modeling combinatorial optimization problems, guiding exact solvers with learned search strategies, learning-theoretic guarantees, and benchmarking/computational considerations. The focus will be on discrete optimization in the integer programming framework, both exact and heuristic."
 course_semester: "Fall 2021"
 
 baseurl: "/2021" # the subpath of your site, e.g. /blog/
