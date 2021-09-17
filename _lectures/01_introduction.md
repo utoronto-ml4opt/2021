@@ -1,17 +1,18 @@
 ---
 type: lecture
-date: 2018-09-16T8:00:00+4:30
-title: Sample Lecture
-tldr: "Short text to discribe what this lecture is about."
+date: 2021-09-13
+title: Course Overview
+tldr: "A brief summary of the main topics we will study and the syllabus."
 thumbnail: /static_files/presentations/lec.jpg
 links: 
     - url: /static_files/presentations/lec.zip
-      name: notes
-    - url: /static_files/presentations/code.zip
-      name: codes
-    - url: https://google.com
       name: slides
+<!--     - url: /static_files/presentations/code.zip
+      name: codes -->
+    - url: https://youtu.be/xaD3fAWK580
+      name: video
 ---
-**Suggested Readings:**
+<!-- **Suggested Readings:**
 - [Readings 1](http://example.com)
 - [Readings 2](http://example.com)
+ -->
