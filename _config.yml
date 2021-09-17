@@ -11,12 +11,12 @@ schoolurl: "https://utoronto.ca"
 twitter_username: UofT 
 
 address: |
-    School of Witchcraft and Wizardry
-    Hogwarts
-    Scotland
+    University of Toronto
+    Toronto, Ontario
+    Canada
 
 # Set your Google Analytics tracking ID (set up yours at http://www.google.com/analytics/)
-# google_analytics: UA-XXXXXXXX-X
+google_analytics: G-P9097C31HM
 
 ### Do not change the followings unless you know what you are doing ###
 
@@ -39,9 +39,9 @@ collections:
     lectures:
         output: true
     assignments:
-        output: true
-    announcements:
         output: false
+    announcements:
+        output: true
 
 
 defaults:
