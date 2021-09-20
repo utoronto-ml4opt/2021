@@ -5,7 +5,7 @@ title: Introduction to Integer Programming
 tldr: "Integer Programming modeling and algorithms."
 thumbnail: /static_files/presentations/1_overview.jpg
 links: 
-    - url: 
+    - url: static_files/presentations/2_integerprogramming.pdf
       name: slides
     - url: 
       name: video
