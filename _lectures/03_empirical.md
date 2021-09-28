@@ -7,7 +7,7 @@ thumbnail: /static_files/presentations/2_integerprogramming.png
 links: 
     - url: /static_files/presentations/3_empirical.pdf
       name: slides
-    - url: 
+    - url: https://youtu.be/YBiol8-FKHA 
       name: video
 ---
 <!-- **Suggested Readings:**
