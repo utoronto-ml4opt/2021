@@ -35,8 +35,19 @@ Because RL can naturally model iterative algorithms from combinatorial optimizat
 
 In this project, you will study RLlib's features and develop [custom environments](https://docs.ray.io/en/latest/rllib-env.html) for combinatorial optimization, assess the pros and cons of such an approach as compared to implementing combinatorial environments from scratch, perform a set of experiments assessing your solution ideally on 2-3 combinatorial problems.  
 
-### Conceptual and experimental analysis/extension of the OR-Gym paper and code repository	https://arxiv.org/abs/2008.06319	
+### Conceptual and experimental analysis/extension of the OR-Gym paper and code repository
+Supply Chain Management (SCM) is a central domain for Operations Research. The [OR-Gym paper](https://arxiv.org/abs/2008.06319) introduces an RL framework for SCM-type problems along with an open implementation.
 
-### A 2021 in-depth analysis of this 1999 classic [Smith, Kate A. “Neural networks for combinatorial optimization: a review of more than a decade of research.” INFORMS Journal on Computing 11.1 (1999): 15-34.] [link]	https://librarysearch.library.utoronto.ca/permalink/01UTORONTO_INST/fedca1/cdi_proquest_journals_200517105 	
+In this project, you will analyze this paper carefully and propose ways of extending OR-Gym to new SCM-type problems. The book [Fundamentals of Supply Chain Theory](https://librarysearch.library.utoronto.ca/permalink/01UTORONTO_INST/14bjeso/alma991106884440206196) is a good reference for the SCM-optimization landscape. Other SCM problems that you may be familiar with are also valid choices.
 
-### Apply ML (of any flavor) to a problem you are interested in		
+### A 2021 in-depth analysis of [Smith (1999)](https://librarysearch.library.utoronto.ca/permalink/01UTORONTO_INST/fedca1/cdi_proquest_journals_200517105)
+This survey precedes the "Deep Learning revolution" of the 2010s. This project revisits the 1999 survey with a critical lens, asking questions such as:
+
+- How does the framing of ML+Combinatorial Optimization in 1999 differ from that of the 2020s (e.g., as seen in the survey by Bengio et al., see Syllabus)?
+- Which of the ideas surveyed by Smith in 1999 are worth revisiting with new tools from deep learning (e.g., GNNs, deep RL, etc.)?
+- Which of Smith's 1999 ideas for promising future directions ended up materializing since?
+- ... and more.
+
+You will analyze the methods surveyed by Smith and use literature review tools (e.g., Google Scholar's "cited by" feature) to understand how this field evolved following the survey, mapping out relevant papers that can answer the questions above or others.
+
+### Apply ML (of any flavor) to a problem you are interested in
