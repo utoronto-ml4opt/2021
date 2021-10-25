@@ -20,10 +20,20 @@ The books on [Stochastic Local Search](https://librarysearch.library.utoronto.ca
 Select (1) a combinatorial optimization problem, (2) a stochastic local search algorithm, and (3) one or more relevant datasets (publicly available or that you generate based on the literature), and apply a Machine Learning approach that can tailor the algorithm (2) to a dataset (3) from a problem (1). Use best practices for analyzing experimental results (see Lecture 3).
 
 ### Apply RL+GNN to a new Graph Optimization problem	
+As discussed in the surveys by Mazyavkina et al. and Cappart et al. (see Syllabus), the combination of Reinforcement Learning (RL) and Graph Neural Networks (GNN) has been used successfully to guide algorithms for some combinatorial algorithms.
 
-https://github.com/Hanjun-Dai/graph_comb_opt	https://github.com/wouterkool/attention-learn-to-route
+This project builds on this research direction by repurposing or augmenting existing open-source repositories that combine RL+GNN to a new optimization problem.
 
-### Implement a Combinatorial Optimization environment in RLlib	https://docs.ray.io/en/latest/rllib.html	
+Existing repositories (along with the corresponding papers) that may serve as a good starting point include:
+- `https://github.com/Hanjun-Dai/graph_comb_opt`	
+- `https://github.com/wouterkool/attention-learn-to-route`
+
+### Implement a Combinatorial Optimization environment in RLlib
+Triggered by successes in using RL for the game of Go, Atari, and other games, the ML/Computer Systems communities have made significant progress in open-sourcing tools that streamline the application of RL to new domains. An example of such a tool is [RLlib](https://docs.ray.io/en/latest/rllib.html).
+
+Because RL can naturally model iterative algorithms from combinatorial optimization (see Mazyavkina et al. survey in Syllabus), and because developing high-performance RL systems and training algorithms is challenging and already quite developed, we would like to leverage existing RL systems, such as RLlib, to apply RL to combinatorial problems.
+
+In this project, you will study RLlib's features and develop [custom environments](https://docs.ray.io/en/latest/rllib-env.html) for combinatorial optimization, assess the pros and cons of such an approach as compared to implementing combinatorial environments from scratch, perform a set of experiments assessing your solution ideally on 2-3 combinatorial problems.  
 
 ### Conceptual and experimental analysis/extension of the OR-Gym paper and code repository	https://arxiv.org/abs/2008.06319	
 
