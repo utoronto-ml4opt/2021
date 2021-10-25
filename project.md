@@ -3,6 +3,8 @@ layout: page
 title: Project
 permalink: /project/
 ---
+## Potential Ideas
+
 ### Algorithm Configuration for a MIP Solver
 Perform a small to medium-scale computational study of algorithm configuration (see Lecture 4) for a MIP or MIP-based solver. A "MIP solver" here refers to tools such as SCIP, Gurobi, CPLEX, Xpress, i.e., tools for solving Mixed Integer Linear Programs (deterministic, single-objective). A "MIP-based solver" may be a software tool (that is available in open-source or free for academic use) for tackling integer optimization problems beyond the linear/single-objective/deterministic case, for example the many projects from [Coin-OR](https://www.coin-or.org/projects/) or [Google's OR-Tools](https://developers.google.com/optimization), a versatile optimization package with APIs in Python and other languages, as well as specialized heuristics for some classes of combinatorial optimization problems (routing, packing, scheduling, etc.).
 
@@ -51,3 +53,20 @@ This survey precedes the "Deep Learning revolution" of the 2010s. This project r
 You will analyze the methods surveyed by Smith and use literature review tools (e.g., Google Scholar's "cited by" feature) to understand how this field evolved following the survey, mapping out relevant papers that can answer the questions above or others.
 
 ### Apply ML (of any flavor) to a problem you are interested in
+Some of you have already approached me with concrete project ideas.
+
+## Computing Resources
+Please refer to [this guide from CARTE](https://carte.utoronto.ca/education/cloud-resources/) for ways you can get access to free CPU/GPU resources if needed.
+
+## Datasets of Optimization Instances
+- [Ecole's random instance generators](https://doc.ecole.ai/py/en/stable/howto/instances.html)
+- [Variety of datasets from Antonio Frangioni](http://pages.di.unipi.it/frangio/)
+- [Variety of datasets from Leandro Coelho](https://www.leandro-coelho.com/instances/)
+- [Brescia Benchmarks (mostly routing problems)](https://or-brescia.unibs.it/instances)
+- [Bin Packing Library](http://or.dei.unibo.it/library/bpplib)
+- [Orienteering Problem Library](https://unicen.smu.edu.sg/oplib-orienteering-problem-library)
+- [Vehicle Routing Problem Repository](http://www.vrp-rep.org/)
+- [Project Scheduling Problem Library](http://www.om-db.wi.tum.de/psplib/)
+- ["NEW INSTANCES FOR MAXIMUM WEIGHT INDEPENDENT
+SET FROM A VEHICLE ROUTING APPLICATION"](https://arxiv.org/abs/2105.12623)
+- [Sports scheduling](https://www.sportscheduling.ugent.be/ITC2021/)
