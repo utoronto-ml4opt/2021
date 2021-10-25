@@ -7,7 +7,7 @@ thumbnail: /static_files/presentations/3_empirical.png
 links: 
     - url: /static_files/presentations/5_learningexact.pdf
       name: slides
-    - url:  
+    - url: https://youtu.be/vbX_vOcrrE4 
       name: video
 ---
 <!-- **Suggested Readings:**
