@@ -14,9 +14,14 @@ Compare some of the following approaches on one or more datasets (of optimizatio
 
 Use best practices for analyzing experimental results (see Lecture 3).	
 
-### ML-guided Stochastic Local Search for a Combinatorial Problem		
+### ML-guided Stochastic Local Search for a Combinatorial Problem
+The books on [Stochastic Local Search](https://librarysearch.library.utoronto.ca/permalink/01UTORONTO_INST/fedca1/cdi_askewsholts_vlebooks_9780080498249) and [Integer Programming](https://librarysearch.library.utoronto.ca/permalink/01UTORONTO_INST/fedca1/cdi_askewsholts_vlebooks_9781119606550) discuss a variety of local search heuristics for combinatorial optimization problems. Oftentimes, these heuristics involve a significant amount of manual engineering in their steps.
 
-### Apply RL+GNN to a new Graph Optimization problem	https://github.com/Hanjun-Dai/graph_comb_opt	https://github.com/wouterkool/attention-learn-to-route
+Select (1) a combinatorial optimization problem, (2) a stochastic local search algorithm, and (3) one or more relevant datasets (publicly available or that you generate based on the literature), and apply a Machine Learning approach that can tailor the algorithm (2) to a dataset (3) from a problem (1). Use best practices for analyzing experimental results (see Lecture 3).
+
+### Apply RL+GNN to a new Graph Optimization problem	
+
+https://github.com/Hanjun-Dai/graph_comb_opt	https://github.com/wouterkool/attention-learn-to-route
 
 ### Implement a Combinatorial Optimization environment in RLlib	https://docs.ray.io/en/latest/rllib.html	
 
