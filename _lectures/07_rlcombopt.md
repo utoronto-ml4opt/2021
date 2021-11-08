@@ -7,7 +7,7 @@ thumbnail: /static_files/presentations/3_empirical.png
 links: 
     - url: /static_files/presentations/7_rlcombopt.pdf
       name: slides
-    - url:  
+    - url: https://youtu.be/QrumhLOCUAw
       name: video
 ---
 **Suggested Readings:**
